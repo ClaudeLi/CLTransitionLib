@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D377D0662044FFFA004EE504 /* CLTransitionLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D377D05C2044FFF9004EE504 /* CLTransitionLib.framework */; };
+		D377D06B2044FFFA004EE504 /* CLTransitionLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D06A2044FFFA004EE504 /* CLTransitionLibTests.m */; };
+		D377D06D2044FFFA004EE504 /* CLTransitionLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D05F2044FFF9004EE504 /* CLTransitionLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D377D07820450018004EE504 /* CLTransitionObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D07620450018004EE504 /* CLTransitionObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D377D07920450018004EE504 /* CLTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D07720450018004EE504 /* CLTransitionObject.m */; };
+		D377D07B20450031004EE504 /* CLTransitionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D07A20450031004EE504 /* CLTransitionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D377D07E20450056004EE504 /* UINavigationController+CLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D07C20450056004EE504 /* UINavigationController+CLTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D377D07F20450056004EE504 /* UINavigationController+CLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D07D20450056004EE504 /* UINavigationController+CLTransition.m */; };
+		D377D08220450067004EE504 /* UIViewController+CLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D08020450067004EE504 /* UIViewController+CLTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D377D08320450067004EE504 /* UIViewController+CLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D08120450067004EE504 /* UIViewController+CLTransition.m */; };
+		D377D0862045007A004EE504 /* UIViewController+CLTransitionObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D0842045007A004EE504 /* UIViewController+CLTransitionObject.h */; };
+		D377D0872045007A004EE504 /* UIViewController+CLTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D0852045007A004EE504 /* UIViewController+CLTransitionObject.m */; };
+		D377D08A204500BE004EE504 /* CLPercentDrivenInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D088204500BE004EE504 /* CLPercentDrivenInteractiveTransition.h */; };
+		D377D08B204500BE004EE504 /* CLPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D089204500BE004EE504 /* CLPercentDrivenInteractiveTransition.m */; };
+		D377D08E204500ED004EE504 /* CLTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D08C204500ED004EE504 /* CLTransitionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D377D08F204500ED004EE504 /* CLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D08D204500ED004EE504 /* CLTransitionManager.m */; };
+		D377D0952045269E004EE504 /* CLTransitionManager+InsideThenPush.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D0932045269E004EE504 /* CLTransitionManager+InsideThenPush.h */; };
+		D377D0962045269E004EE504 /* CLTransitionManager+InsideThenPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D0942045269E004EE504 /* CLTransitionManager+InsideThenPush.m */; };
+		D377D099204526B7004EE504 /* CLTransitionManager+ViewMove.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D097204526B7004EE504 /* CLTransitionManager+ViewMove.h */; };
+		D377D09A204526B7004EE504 /* CLTransitionManager+ViewMove.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D098204526B7004EE504 /* CLTransitionManager+ViewMove.m */; };
+		D377D09D20452BC6004EE504 /* CLTransitionManager+SystemAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D377D09B20452BC6004EE504 /* CLTransitionManager+SystemAnimation.h */; };
+		D377D09E20452BC6004EE504 /* CLTransitionManager+SystemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D377D09C20452BC6004EE504 /* CLTransitionManager+SystemAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D377D0672044FFFA004EE504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D377D0532044FFF9004EE504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D377D05B2044FFF9004EE504;
+			remoteInfo = CLTransitionLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D377D05C2044FFF9004EE504 /* CLTransitionLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLTransitionLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D377D05F2044FFF9004EE504 /* CLTransitionLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTransitionLib.h; sourceTree = "<group>"; };
+		D377D0602044FFF9004EE504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D377D0652044FFFA004EE504 /* CLTransitionLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLTransitionLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D377D06A2044FFFA004EE504 /* CLTransitionLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTransitionLibTests.m; sourceTree = "<group>"; };
+		D377D06C2044FFFA004EE504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D377D07620450018004EE504 /* CLTransitionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTransitionObject.h; sourceTree = "<group>"; };
+		D377D07720450018004EE504 /* CLTransitionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTransitionObject.m; sourceTree = "<group>"; };
+		D377D07A20450031004EE504 /* CLTransitionConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTransitionConfig.h; sourceTree = "<group>"; };
+		D377D07C20450056004EE504 /* UINavigationController+CLTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CLTransition.h"; sourceTree = "<group>"; };
+		D377D07D20450056004EE504 /* UINavigationController+CLTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CLTransition.m"; sourceTree = "<group>"; };
+		D377D08020450067004EE504 /* UIViewController+CLTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLTransition.h"; sourceTree = "<group>"; };
+		D377D08120450067004EE504 /* UIViewController+CLTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLTransition.m"; sourceTree = "<group>"; };
+		D377D0842045007A004EE504 /* UIViewController+CLTransitionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLTransitionObject.h"; sourceTree = "<group>"; };
+		D377D0852045007A004EE504 /* UIViewController+CLTransitionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLTransitionObject.m"; sourceTree = "<group>"; };
+		D377D088204500BE004EE504 /* CLPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		D377D089204500BE004EE504 /* CLPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		D377D08C204500ED004EE504 /* CLTransitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTransitionManager.h; sourceTree = "<group>"; };
+		D377D08D204500ED004EE504 /* CLTransitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTransitionManager.m; sourceTree = "<group>"; };
+		D377D0932045269E004EE504 /* CLTransitionManager+InsideThenPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLTransitionManager+InsideThenPush.h"; sourceTree = "<group>"; };
+		D377D0942045269E004EE504 /* CLTransitionManager+InsideThenPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLTransitionManager+InsideThenPush.m"; sourceTree = "<group>"; };
+		D377D097204526B7004EE504 /* CLTransitionManager+ViewMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLTransitionManager+ViewMove.h"; sourceTree = "<group>"; };
+		D377D098204526B7004EE504 /* CLTransitionManager+ViewMove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLTransitionManager+ViewMove.m"; sourceTree = "<group>"; };
+		D377D09B20452BC6004EE504 /* CLTransitionManager+SystemAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLTransitionManager+SystemAnimation.h"; sourceTree = "<group>"; };
+		D377D09C20452BC6004EE504 /* CLTransitionManager+SystemAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLTransitionManager+SystemAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D377D0582044FFF9004EE504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D377D0622044FFFA004EE504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D377D0662044FFFA004EE504 /* CLTransitionLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D377D0522044FFF9004EE504 = {
+			isa = PBXGroup;
+			children = (
+				D377D05E2044FFF9004EE504 /* CLTransitionLib */,
+				D377D0692044FFFA004EE504 /* CLTransitionLibTests */,
+				D377D05D2044FFF9004EE504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D377D05D2044FFF9004EE504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D377D05C2044FFF9004EE504 /* CLTransitionLib.framework */,
+				D377D0652044FFFA004EE504 /* CLTransitionLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D377D05E2044FFF9004EE504 /* CLTransitionLib */ = {
+			isa = PBXGroup;
+			children = (
+				D377D05F2044FFF9004EE504 /* CLTransitionLib.h */,
+				D377D07A20450031004EE504 /* CLTransitionConfig.h */,
+				D377D07620450018004EE504 /* CLTransitionObject.h */,
+				D377D07720450018004EE504 /* CLTransitionObject.m */,
+				D377D08C204500ED004EE504 /* CLTransitionManager.h */,
+				D377D08D204500ED004EE504 /* CLTransitionManager.m */,
+				D377D07C20450056004EE504 /* UINavigationController+CLTransition.h */,
+				D377D07D20450056004EE504 /* UINavigationController+CLTransition.m */,
+				D377D08020450067004EE504 /* UIViewController+CLTransition.h */,
+				D377D08120450067004EE504 /* UIViewController+CLTransition.m */,
+				D377D0842045007A004EE504 /* UIViewController+CLTransitionObject.h */,
+				D377D0852045007A004EE504 /* UIViewController+CLTransitionObject.m */,
+				D377D088204500BE004EE504 /* CLPercentDrivenInteractiveTransition.h */,
+				D377D089204500BE004EE504 /* CLPercentDrivenInteractiveTransition.m */,
+				D377D097204526B7004EE504 /* CLTransitionManager+ViewMove.h */,
+				D377D098204526B7004EE504 /* CLTransitionManager+ViewMove.m */,
+				D377D0932045269E004EE504 /* CLTransitionManager+InsideThenPush.h */,
+				D377D0942045269E004EE504 /* CLTransitionManager+InsideThenPush.m */,
+				D377D09B20452BC6004EE504 /* CLTransitionManager+SystemAnimation.h */,
+				D377D09C20452BC6004EE504 /* CLTransitionManager+SystemAnimation.m */,
+				D377D0602044FFF9004EE504 /* Info.plist */,
+			);
+			path = CLTransitionLib;
+			sourceTree = "<group>";
+		};
+		D377D0692044FFFA004EE504 /* CLTransitionLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				D377D06A2044FFFA004EE504 /* CLTransitionLibTests.m */,
+				D377D06C2044FFFA004EE504 /* Info.plist */,
+			);
+			path = CLTransitionLibTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D377D0592044FFF9004EE504 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D377D0952045269E004EE504 /* CLTransitionManager+InsideThenPush.h in Headers */,
+				D377D08E204500ED004EE504 /* CLTransitionManager.h in Headers */,
+				D377D07820450018004EE504 /* CLTransitionObject.h in Headers */,
+				D377D07B20450031004EE504 /* CLTransitionConfig.h in Headers */,
+				D377D08220450067004EE504 /* UIViewController+CLTransition.h in Headers */,
+				D377D07E20450056004EE504 /* UINavigationController+CLTransition.h in Headers */,
+				D377D06D2044FFFA004EE504 /* CLTransitionLib.h in Headers */,
+				D377D0862045007A004EE504 /* UIViewController+CLTransitionObject.h in Headers */,
+				D377D08A204500BE004EE504 /* CLPercentDrivenInteractiveTransition.h in Headers */,
+				D377D09D20452BC6004EE504 /* CLTransitionManager+SystemAnimation.h in Headers */,
+				D377D099204526B7004EE504 /* CLTransitionManager+ViewMove.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D377D05B2044FFF9004EE504 /* CLTransitionLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D377D0702044FFFA004EE504 /* Build configuration list for PBXNativeTarget "CLTransitionLib" */;
+			buildPhases = (
+				D377D0572044FFF9004EE504 /* Sources */,
+				D377D0582044FFF9004EE504 /* Frameworks */,
+				D377D0592044FFF9004EE504 /* Headers */,
+				D377D05A2044FFF9004EE504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLTransitionLib;
+			productName = CLTransitionLib;
+			productReference = D377D05C2044FFF9004EE504 /* CLTransitionLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D377D0642044FFFA004EE504 /* CLTransitionLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D377D0732044FFFA004EE504 /* Build configuration list for PBXNativeTarget "CLTransitionLibTests" */;
+			buildPhases = (
+				D377D0612044FFFA004EE504 /* Sources */,
+				D377D0622044FFFA004EE504 /* Frameworks */,
+				D377D0632044FFFA004EE504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D377D0682044FFFA004EE504 /* PBXTargetDependency */,
+			);
+			name = CLTransitionLibTests;
+			productName = CLTransitionLibTests;
+			productReference = D377D0652044FFFA004EE504 /* CLTransitionLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D377D0532044FFF9004EE504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ClaudeLi;
+				TargetAttributes = {
+					D377D05B2044FFF9004EE504 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D377D0642044FFFA004EE504 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D377D0562044FFF9004EE504 /* Build configuration list for PBXProject "CLTransitionLib" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D377D0522044FFF9004EE504;
+			productRefGroup = D377D05D2044FFF9004EE504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D377D05B2044FFF9004EE504 /* CLTransitionLib */,
+				D377D0642044FFFA004EE504 /* CLTransitionLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D377D05A2044FFF9004EE504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D377D0632044FFFA004EE504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D377D0572044FFF9004EE504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D377D07920450018004EE504 /* CLTransitionObject.m in Sources */,
+				D377D08F204500ED004EE504 /* CLTransitionManager.m in Sources */,
+				D377D0962045269E004EE504 /* CLTransitionManager+InsideThenPush.m in Sources */,
+				D377D09A204526B7004EE504 /* CLTransitionManager+ViewMove.m in Sources */,
+				D377D08B204500BE004EE504 /* CLPercentDrivenInteractiveTransition.m in Sources */,
+				D377D09E20452BC6004EE504 /* CLTransitionManager+SystemAnimation.m in Sources */,
+				D377D0872045007A004EE504 /* UIViewController+CLTransitionObject.m in Sources */,
+				D377D08320450067004EE504 /* UIViewController+CLTransition.m in Sources */,
+				D377D07F20450056004EE504 /* UINavigationController+CLTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D377D0612044FFFA004EE504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D377D06B2044FFFA004EE504 /* CLTransitionLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D377D0682044FFFA004EE504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D377D05B2044FFF9004EE504 /* CLTransitionLib */;
+			targetProxy = D377D0672044FFFA004EE504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D377D06E2044FFFA004EE504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D377D06F2044FFFA004EE504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D377D0712044FFFA004EE504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CLTransitionLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.CLTransitionLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D377D0722044FFFA004EE504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CLTransitionLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.CLTransitionLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D377D0742044FFFA004EE504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTransitionLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.CLTransitionLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D377D0752044FFFA004EE504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTransitionLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.CLTransitionLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D377D0562044FFF9004EE504 /* Build configuration list for PBXProject "CLTransitionLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D377D06E2044FFFA004EE504 /* Debug */,
+				D377D06F2044FFFA004EE504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D377D0702044FFFA004EE504 /* Build configuration list for PBXNativeTarget "CLTransitionLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D377D0712044FFFA004EE504 /* Debug */,
+				D377D0722044FFFA004EE504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D377D0732044FFFA004EE504 /* Build configuration list for PBXNativeTarget "CLTransitionLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D377D0742044FFFA004EE504 /* Debug */,
+				D377D0752044FFFA004EE504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D377D0532044FFF9004EE504 /* Project object */;
+}
